@@ -499,4 +499,82 @@ footer{
   #bara{
     display:flex;
   }
+  .overlay {
+
+  display: flex;
+  flex-direction: column;
+
+  }
+  .bean img{
+    top:-50px;
+    right: -100px;;
+    width:350px;
+  }
+  .subs-button, #input-text{
+    width:300px;
+  }
+  .cup img{
+    width:200px;
+  }
+  footer{
+
+
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  
+}
+.footer-brand{
+  width:100%;
+}
+.nd-container {
+
+  flex-direction: column-reverse;
+}
+.nd-container img{
+  width:250px;
+}
+.blast img{
+  display: none;
+}
+.nd-container h1 {
+  font-size:25px;
+  text-align: center;
+}
+.nd-container p {
+
+  
+  font-size:15px;
+  text-align: center;
+}
+.details, .image-coffee{
+  width:80%;
+}
+.main-container {
+  min-height: 70vh;
+}
+.intro {
+  width: 100%;
+  margin-left: 0px;
+  text-align: center;
+  padding:40px;
+}
+.intro h1 {
+
+  font-size: 100px;
+
+}
+.intro h2 {
+
+  font-size: 13px;
+}
+.intro p {
+
+  font-size: 10px;
+ 
+}
 }
